@@ -1,42 +1,51 @@
 @import "tailwindcss";
 
 @theme {
-  --color-background: #050505;
+  --color-background: #000000;
   --color-foreground: #ffffff;
-  --color-surface: #0f0f11;
-  --color-primary: #7e14ff;
-  --color-primary-foreground: #ffffff;
-  --color-secondary: #47bfff;
+  --color-card: #050505;
+  --color-card-foreground: #ffffff;
+  --color-popover: #050505;
+  --color-popover-foreground: #ffffff;
+  --color-primary: #ffffff;
+  --color-primary-foreground: #000000;
+  --color-secondary: #888888;
   --color-secondary-foreground: #ffffff;
-  --color-muted: #18181b;
-  --color-muted-foreground: #a1a1aa;
-  --color-accent: #ede6ff;
-  --color-border: rgba(255, 255, 255, 0.1);
+  --color-muted: #111111;
+  --color-muted-foreground: #888888;
+  --color-accent: #222222;
+  --color-accent-foreground: #ffffff;
+  --color-destructive: #ff4444;
+  --color-destructive-foreground: #ffffff;
+  --color-border: #222222;
+  --color-input: #222222;
+  --color-ring: #ffffff;
+  --color-surface: #0a0a0a;
   --font-sans: 'Geist', 'Inter', system-ui, sans-serif;
   --font-mono: 'Geist Mono', monospace;
 }
 
 @layer base {
   :root {
-    --background: 0 0% 2%;
+    --background: 0 0% 0%;
     --foreground: 0 0% 100%;
     --card: 0 0% 6%;
     --card-foreground: 0 0% 100%;
     --popover: 0 0% 6%;
     --popover-foreground: 0 0% 100%;
-    --primary: 267 100% 54%; /* #7e14ff */
-    --primary-foreground: 0 0% 100%;
-    --secondary: 201 100% 64%; /* #47bfff */
+    --primary: 0 0% 100%; /* #ffffff */
+    --primary-foreground: 0 0% 0%; /* #000000 */
+    --secondary: 0 0% 53.3%; /* #888888 */
     --secondary-foreground: 0 0% 100%;
-    --muted: 240 3.7% 15.9%;
-    --muted-foreground: 240 5% 64.9%;
-    --accent: 267 100% 95%; /* #ede6ff */
-    --accent-foreground: 0 0% 9%;
-    --destructive: 0 62.8% 30.6%;
+    --muted: 0 0% 6.7%; /* #111111 */
+    --muted-foreground: 0 0% 53.3%;
+    --accent: 0 0% 13.3%; /* #222222 */
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 100% 63.5%; /* #ff4444 */
     --destructive-foreground: 0 0% 100%;
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
-    --ring: 267 100% 54%;
+    --border: 0 0% 13.3%;
+    --input: 0 0% 13.3%;
+    --ring: 0 0% 100%;
     --radius: 0.75rem;
   }
 }
