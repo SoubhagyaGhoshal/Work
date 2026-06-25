@@ -1,0 +1,28 @@
+/* Apply default tailwind font */
+body, html, * {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* Ensure exact background color match with helllo.ai */
+html, body {
+  background-color: #080808;
+  color: #ffffff;
+}
+
+#root {
+  background-color: #080808;
+  min-height: 100vh;
+}
+
+/* Make the helllo-root wrapper match the live site's min-h-screen */
+.helllo-root {
+  background-color: #080808;
+  min-height: 100vh;
+}
+
+/* Match the min-h-screen div wrapping the whole page content */
+.helllo-root > .min-h-screen {
+  background-color: #080808;
+  min-height: 100vh;
+}
+
